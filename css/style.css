@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&display=swap');
 
 /*
-Font Family header: 'Crimson Text', serif;
-backgrodun color header:#191825
-hover nav menu: #F9F54B
-hover banner: #FD841F
+body: font-family 'Crimson Text', serif;
+    color #2A363B;
+.logo:background-color #99B898; 
+.container: background-color #E8E2E2;
+
 
 
 
@@ -32,20 +33,16 @@ html{
 body{
     font-family: 'Crimson Text', serif;
     font-size: 16px;
+    color: #2a363b;
 }
 
 header{
-    background: linear-gradient(#000512,#6883e4);
-    color: rgb(172, 234, 243);
     max-width: 100%;
-    height: 12rem;
+    height: 13rem;
 }
-
-
 
 @media (max-width: 710px){
     header{
-        background-color: orange;
         height: 13rem;
     }
 }
@@ -66,18 +63,21 @@ li{
 
 a{
     text-decoration: none;
+    color: #2a363b;
 }
 
 .logo{
+    background-color: #99B898;
     text-align: center;
     width: 100%;
-    height: 6rem;
+    height: 8rem;
     
 }
 
 .logo h1{
         font-size: 6rem;
         font-weight: bold;
+        
 }
 
 @media (max-width: 600px){
@@ -88,9 +88,15 @@ a{
 }
 
 .conteiner{
+    background-color: #E8E2E2;
     width: 100%;
     height: 5rem;
-    margin-top: 2REM;
+}
+
+@media (max-width: 600px){
+    .conteiner{
+        height: 16rem;
+    }
 }
 
 .nav-menu{
@@ -99,25 +105,26 @@ a{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    align-items: center;
 }
 
 .nav-menu a{
     font-size: 2.5rem;
     text-decoration: none;
-    color: rgb(172, 234, 243);
     font-weight: bold;
 }
 
 @media (max-width: 600px){
-    .nav-menu{display: grid;
+    .nav-menu{
+        display: grid;
         text-align: center;
         gap: 0.5rem;
-        font-weight: 800;
     }
 }
 
 .nav-menu a:hover{
-    border: 4px solid #AA77FF;
+    border: 4px solid #2a363b;
+    background-color: #99B898;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     transition: 0.3s;
@@ -167,6 +174,7 @@ a{
 }
 
 .section-image{
+    
     width: 100%;
     height: 60rem;
     display: grid;
@@ -274,7 +282,7 @@ a{
 .section-center ul li a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
-    color: black;
+   
 }
 
 .section-center ul li a:hover{
@@ -353,13 +361,13 @@ a{
     border: 2px solid black;
     border-radius: 10px;
     padding: 2px;
-    box-shadow: 5px -5px lightskyblue;
+    box-shadow: 5px -5px #1A120B;
     text-decoration: none;
 }
 
 .btn a:hover{
     padding: 6px;
-    background-color: black;
+    background-color: #1A120B;
     color: white;
     transition: 0.5s;
 }
@@ -367,28 +375,27 @@ a{
 .footer-container{
     width: 100%;
     height: 6rem;
-    background-color: black;
+    background-color: #E5E5CB;
 }
 
 .ul-footer{
     width: 100%;
-    height: 5rem;
+    height: 6rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-self: center;
     justify-self: center;
 }
 
-@media (max-width: 1000px){
-    .ul-footer{
-        width: 100%;
-        height: 4.5;
-    }
+.ul-footer img{
+    width: 3.5rem;
+    height: 3.5rem;
 }
 
-.ul-footer img{
-    width: 4.5rem;
-    height: 4.5rem;
+@media (max-width: 1000px){
+    .ul-footer{
+        height: 4;
+    }
 }
 
 @media (max-width: 1000px){
@@ -426,7 +433,6 @@ a{
     grid-column: 5/6;
     align-self: center;
     justify-self: center;
-    color: white;
 }
 
 .ul-footer img:hover{
@@ -437,23 +443,21 @@ a{
 /*pagina-2 login*/
 
 .logo-2{
-    display: flex;
-    justify-content: flex-start;
+    background-color: #99B898;
+    text-align: center;
     width: 100%;
-    height: 4rem;
-    justify-content: space-between;
+    height: 8rem;
 }
 
 .logo-2 a{
-    color: white;
+    color: #2a363b;
     font-size: 6rem;
     margin-left: 20px;
 }
 
 .logo-2 a:hover{
-    background-color: white;
-    color: black;
-    border-radius: 1rem;
+    border-left: 4px solid #E8E2E2;
+    
 }
 
 .banner-01 {
@@ -469,24 +473,34 @@ a{
 }
 
 .banner-01 img{
-    width: 70rem;
+    width: 100%;
     height: 12rem;
     grid-column: 1/2;
     grid-row: 1/2;
 }
 
 .banner-01 img:hover{
-    width: 75rem;
+    width: 90%rem;
     height: 13rem;
     border-radius: 10rem;
 }
 
+
+
 .login{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     width: 100%;
-    height: 25rem;
+    height: 50rem;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+form{
+    border: 4px solid #141e61;
+    border-radius: 10px;
+    padding: 4rem;
 }
 
 label{
@@ -494,39 +508,28 @@ label{
 }
 
 .login input{
-    width: 80%;
+    width: 90%;
     padding: 10px;
+    border: 2px solid #141E61;
     border-radius: 1rem;
-    margin: 1rem 1rem 1rem 1rem;
-}
-
-.entrar{
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
 }
 
 button{
-    width: 10%;
+    width: 15rem;
     height: 3rem;
     background-color: black;
     color: white;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
     border-radius: 10rem;
     font-size: 2.5rem;
+    margin-top: 3rem;
 }
 
 button:hover{
-    color: #141E61;
-    background-color: beige;
+    width: 20rem;
+    height: 3.5rem;
     font-size: 3rem;
-    width: 12%;
-    height: 4rem;
 }
-
 .olvidaste{
     width: 100%;
     height: 50px;
