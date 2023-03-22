@@ -1,22 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&display=swap');
-
-/*
-body: font-family 'Crimson Text', serif;
-    color #2A363B;
-.logo:background-color #99B898; 
-.container: background-color #E8E2E2;
-
-
-
-
-
-
-
-*/
-
-
-
 
 *{
     margin:0;
@@ -33,102 +15,23 @@ html{
 body{
     font-family: 'Crimson Text', serif;
     font-size: 16px;
-    color: #2a363b;
+    color: #2A363B;
 }
-
 header{
-    max-width: 100%;
-    height: 13rem;
+    background-color:#99B898;
 }
 
-@media (max-width: 710px){
-    header{
-        height: 13rem;
-    }
-}
-
-@media (max-width: 600px){
-    header{ 
-        height: 25rem;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        display: grid;
-        grid-template-rows: 30% 1fr;
-        }
-}
-
-li{
-    list-style: none;
+h1{
+    font-size: 4rem;
 }
 
 a{
     text-decoration: none;
-    color: #2a363b;
+    font-size: 2rem;
 }
 
-.logo{
-    background-color: #99B898;
-    text-align: center;
-    width: 100%;
-    height: 8rem;
-    
-}
-
-.logo h1{
-        font-size: 6rem;
-        font-weight: bold;
-        
-}
-
-@media (max-width: 600px){
-    .logo{ 
-        grid-column: 1/2;
-        text-align: center; 
-        }
-}
-
-.conteiner{
-    background-color: #E8E2E2;
-    width: 100%;
-    height: 5rem;
-}
-
-@media (max-width: 600px){
-    .conteiner{
-        height: 16rem;
-    }
-}
-
-.nav-menu{
-    width: 100%;
-    height: 5rem;
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    align-items: center;
-}
-
-.nav-menu a{
-    font-size: 2.5rem;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-@media (max-width: 600px){
-    .nav-menu{
-        display: grid;
-        text-align: center;
-        gap: 0.5rem;
-    }
-}
-
-.nav-menu a:hover{
-    border: 4px solid #2a363b;
-    background-color: #99B898;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    transition: 0.3s;
-    padding: 2px;
+li{
+    list-style: none ;
 }
 
 .section-search{
@@ -174,7 +77,6 @@ a{
 }
 
 .section-image{
-    
     width: 100%;
     height: 60rem;
     display: grid;
@@ -253,11 +155,14 @@ a{
     transition: 0.3s;
 }
 
+.section-center ul li a{
+    color: #2a363b;
+}
+
 .section-center{
     width: 100%;
     height: 4rem;
     margin-bottom: 10rem;
-   
 }
 
 @media (max-width: 600px){
@@ -443,24 +348,6 @@ a{
 
 /*pagina-2 login*/
 
-.logo-2{
-    background-color: #99B898;
-    text-align: center;
-    width: 100%;
-    height: 8rem;
-}
-
-.logo-2 a{
-    color: #2a363b;
-    font-size: 6rem;
-    margin-left: 20px;
-}
-
-.logo-2 a:hover{
-    border-left: 4px solid #E8E2E2;
-    
-}
-
 .banner-01 {
     width: 100%;
     height: 10rem;
@@ -485,8 +372,6 @@ a{
     height: 13rem;
     border-radius: 10rem;
 }
-
-
 
 .login{
     margin-top: 4rem;
@@ -516,21 +401,6 @@ label{
     margin: auto;
 }
 
-button{
-    width: 15rem;
-    height: 3rem;
-    background-color: black;
-    color: white;
-    border-radius: 10rem;
-    font-size: 2.5rem;
-    margin-top: 3rem;
-}
-
-button:hover{
-    width: 20rem;
-    height: 3.5rem;
-    font-size: 3rem;
-}
 .olvidaste{
     width: 100%;
     height: 50px;
@@ -1327,7 +1197,7 @@ button:hover{
     }
 }
 
-.des-h3 h3{;
+.des-h3 h3{
     text-align: center;
     margin-top: 40px;
     font-size: 24px;
