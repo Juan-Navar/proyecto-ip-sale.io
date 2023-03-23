@@ -249,15 +249,17 @@ li{
     justify-self: center;
 }
 
-.btn{
+.btn-1{
     width: 100%;
     height: 2rem;
     display: grid;
     grid-template-columns: 1fr;
     margin-bottom: 10rem;
+    justify-content: center;
 }
 
-.btn a{
+.btn-1 a{
+    color: #2A363B;
     grid-column: 1/2;
     align-self: center;
     justify-self: center;
@@ -270,7 +272,7 @@ li{
     text-decoration: none;
 }
 
-.btn a:hover{
+.btn-1 a:hover{
     padding: 6px;
     background-color: #1A120B;
     color: white;
@@ -290,7 +292,6 @@ li{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-self: center;
     justify-self: center;
-   
 }
 
 .ul-footer img{
@@ -308,6 +309,13 @@ li{
     .ul-footer img{
         width: 3rem;
         height: 3rem;
+    }
+}
+
+@media (max-width: 710px){
+    .ul-footer img{
+        width: 2.5rem;
+        height: 2.5rem;
     }
 }
 
@@ -339,6 +347,13 @@ li{
     grid-column: 5/6;
     align-self: center;
     justify-self: center;
+}
+
+@media(max-width:768px){
+    .cr{
+        text-align: left;
+        font-size: 1rem;
+    }
 }
 
 .ul-footer img:hover{
@@ -399,6 +414,26 @@ label{
     border: 2px solid #141E61;
     border-radius: 1rem;
     margin: auto;
+}
+
+.btn{
+    width: 50%;
+    height: 4rem;
+    margin-top: 2rem;
+}
+
+.btn button{
+    width: 100%;
+    font-size: 2rem;
+    background-color: #141E61;
+    color: white;
+    box-shadow: 5px 5px 7px green;
+}
+
+.btn button:hover{
+    background-color: #E5E5CB;
+    color: #141E61;
+    font-size: 2.5rem;
 }
 
 .olvidaste{
@@ -539,13 +574,13 @@ label{
     margin-bottom: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 300px 250px 50px;
+    grid-template-rows: 300px 200px 50px;
 }
 
 @media(max-width: 1400px){
     .image-i1{
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows:300px 250px 50px 300px 250px 50px;
+        grid-template-rows:300px 200px 50px 300px 200px 50px;
         height: 140rem;
     }
 }
@@ -553,7 +588,7 @@ label{
 @media(max-width: 1000px){
     .image-i1{
         grid-template-columns: 1fr 1fr;
-        grid-template-rows:300px 250px 50px 300px 250px 50px;
+        grid-template-rows:300px 200px 50px 300px 200px 50px;
         height: 140rem;
     }
 }
@@ -561,8 +596,8 @@ label{
 @media(max-width: 710px){
     .image-i1{
         grid-template-columns: 1fr;
-        grid-template-rows:300px 250px 50px 300px 250px 50px 300px 250px 50px 300px 250px 50px ;
-        height: 250rem;
+        grid-template-rows:300px 200px 50px 300px 200px 50px 300px 200px 50px 300px 200px 50px ;
+        height: 23git status0rem;
     }
 }
 
@@ -591,6 +626,7 @@ label{
     .red{
         grid-column: 1/2;
         grid-row: 4/5;
+        border-top: 4px solid black;
     }
 }
 
@@ -605,8 +641,7 @@ label{
     .black{
         grid-column: 1/2;
         grid-row: 4/5;
-        align-self: center;
-        justify-self: center;
+        border-top: 4px solid black;
     }
 }
 
@@ -628,8 +663,7 @@ label{
     .gold{
         grid-column: 1/2;
         grid-row: 4/5;
-        align-self: center;
-        justify-self: center;
+        border-top: 4px solid black;
     }
 }
 
@@ -637,8 +671,7 @@ label{
     .gold{
         grid-column: 2/3;
         grid-row: 4/5;
-        align-self: center;
-        justify-self: center;
+        border-top: 4px solid black;
     }
 }
 
@@ -646,6 +679,7 @@ label{
     .gold{
         grid-column: 1/2;
         grid-row: 10/11;
+        border-top: 4px solid black;
     }
 }
 
@@ -802,7 +836,7 @@ label{
 .image-i1 a{
     border: 4px solid #0096FF;
     border-radius: 15px;
-    box-shadow: 5px 5px 10px 10px #72FFFF;
+    box-shadow: 5px 5px 7px #72FFFF;
     padding: 4px;
 }
 
@@ -827,7 +861,7 @@ label{
 @media(max-width: 1500px){
     .ofertas-1{
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows:300px 250px 50px 300px 250px 50px;
+        grid-template-rows:300px 200px 50px 300px 200px 50px;
         height: 140rem;
     }
 }
@@ -836,7 +870,7 @@ label{
 @media(max-width: 1000px){
     .ofertas-1{
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows:300px 250px 50px 300px 250px 50px;
+        grid-template-rows:300px 200px 50px 300px 200px 50px;
         height: 140rem;
     }
 }
@@ -844,7 +878,7 @@ label{
 @media(max-width: 900px){
     .ofertas-1{
         grid-template-columns: 1fr;
-        grid-template-rows:300px 250px 50px 300px 250px 50px 300px 250px 50px 300px 250px 50px;
+        grid-template-rows:300px 200px 50px 300px 200px 50px 300px 200px 50px 300px 200px 50px;
         height: 190rem;
     }
 }
@@ -852,7 +886,7 @@ label{
 @media(max-width: 710px){
     .ofertas-1{
         grid-template-columns: 1fr;
-        grid-template-rows:300px 250px 50px 300px 250px 50px 300px 250px 50px 300px 250px 50px 300px 250px 50px;
+        grid-template-rows:300px 200px 50px 300px 200px 50px 300px 200px 50px 300px 200px 50px 300px 200px 50px;
         height: 300rem;
     }
 }
@@ -883,6 +917,7 @@ label{
     .airtags{
         grid-column: 1/2;
         grid-row: 4/5;
+        border-top: 4px solid black;
     }
 }
 
@@ -897,6 +932,7 @@ label{
     .blanco{
         grid-column: 1/2;
         grid-row: 4/5;
+        border-top: 4px solid black;
     }
 }
 
@@ -904,6 +940,7 @@ label{
     .blanco{
         grid-column: 1/2;
         grid-row: 7/8;
+        border-top: 4px solid black;
     }
 }
 
@@ -918,6 +955,7 @@ label{
     .rosa{
         grid-column: 1/2;
         grid-row: 4/5;
+        border-top: 4px solid black;
     }
 }
 
@@ -925,6 +963,7 @@ label{
     .rosa{
         grid-column: 2/3;
         grid-row: 4/5;
+        border-top: 4px solid black;
     }
 }
 
@@ -933,6 +972,7 @@ label{
     .rosa{
         grid-column: 1/2;
         grid-row: 10/11;
+        border-top: 4px solid black;
     }
 }
 
@@ -947,6 +987,7 @@ label{
     .negro{
         grid-column: 1/2;
         grid-row: 4/5;
+        border-top: 4px solid black;
     }
 }
 
@@ -954,6 +995,7 @@ label{
     .negro{
         grid-column: 2/3;
         grid-row: 4/5;
+        border-top: 4px solid black;
     }
 }
 
@@ -961,6 +1003,7 @@ label{
     .negro{
         grid-column: 1/2;
         grid-row: 7/8;
+        border-top: 4px solid black;
     }
 }
 
@@ -968,6 +1011,7 @@ label{
     .negro{
         grid-column: 1/2;
         grid-row: 13/14;
+        border-top: 4px solid black;
     }
 }
 
