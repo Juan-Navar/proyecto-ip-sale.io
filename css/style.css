@@ -597,7 +597,7 @@ label{
     .image-i1{
         grid-template-columns: 1fr;
         grid-template-rows:300px 200px 50px 300px 200px 50px 300px 200px 50px 300px 200px 50px ;
-        height: 23git status0rem;
+        height: 230rem;
     }
 }
 
