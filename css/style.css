@@ -478,7 +478,7 @@ label{
 }
 
 .suscribe{
-    width: 50%;
+    width: 100%;
     height: 10rem;
     font-size: 2.5rem;
 }
@@ -498,6 +498,12 @@ label{
 @media(max-width: 1000px){
     .suscribe p{
         font-size: 2rem;
+    }
+}
+
+@media(max-width: 500px){
+    .suscribe p{
+        font-size: 1.5rem;
     }
 }
         
@@ -712,8 +718,7 @@ label{
     .d3{
         grid-column: 1/2;
         grid-row: 5/6;
-        align-self: center;
-        justify-self: center;
+
     }
 }
 
@@ -734,8 +739,6 @@ label{
     .d4{
         grid-column: 1/2;
         grid-row: 5/6;
-        align-self: center;
-        justify-self: center;
     }
 }
 
@@ -744,8 +747,6 @@ label{
     .d4{
         grid-column: 2/3;
         grid-row: 5/6;
-        align-self: center;
-        justify-self: center;
     }
 }
 
@@ -789,8 +790,6 @@ label{
     .boton-comprar-3{
         grid-column: 1/2;
         grid-row: 6/7;
-        align-self: center;
-        justify-self: center;
     }
 }
 
@@ -812,8 +811,6 @@ label{
     .boton-comprar-4{
         grid-column: 1/2;
         grid-row: 6/7;
-        align-self: center;
-        justify-self: center;
     }
 }
 
@@ -821,8 +818,6 @@ label{
     .boton-comprar-4{
         grid-column: 2/3;
         grid-row: 6/7;
-        align-self: center;
-        justify-self: center;
     }
 }
 
@@ -894,7 +889,7 @@ label{
 .ofertas-1 a{
     border: 4px solid #0096FF;
     border-radius: 15px;
-    box-shadow: 5px 5px 10px 10px #72FFFF;
+    box-shadow: 5px 5px 10px #72FFFF;
     padding: 4px;
 }
 
@@ -1215,7 +1210,6 @@ label{
     .boton-comprar-9{
         grid-column: 1/2;
         grid-row: 9/10;
-
     }
 }
 
