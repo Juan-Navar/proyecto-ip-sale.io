@@ -26,10 +26,12 @@ a {
   text-decoration: none;
 }
 
+/*header*/
 header {
   background-color: #99B898;
 }
 
+/*barra de busqueda*/
 .section-search {
   width: 100%;
   margin-top: 2rem;
@@ -53,6 +55,7 @@ header {
   height: 4.5rem;
 }
 
+/*banner index*/
 .banner {
   width: 100%;
   margin-bottom: 10rem;
@@ -71,28 +74,6 @@ header {
   transition: 0.3s;
 }
 
-@media (max-width: 1000px) {
-  .section-search img {
-    width: 4rem;
-    height: 4rem;
-  }
-  .banner img {
-    width: 100%;
-    height: 20rem;
-  }
-}
-@media (max-width: 710px) {
-  .banner img {
-    width: 100%;
-    height: 15rem;
-  }
-}
-@media (max-width: 600px) {
-  .banner img {
-    width: 100%;
-    height: 10rem;
-  }
-}
 /*Pagina 2---iphone---*/
 .iphone {
   display: flex;
@@ -151,11 +132,6 @@ header {
   font-size: 20px;
 }
 
-@media (max-width: 768px) {
-  .img-tecnico img {
-    width: 350px;
-  }
-}
 /*Pagina-5 Login*/
 .banner-01 {
   width: 100%;
@@ -267,10 +243,40 @@ header {
   padding: 2px;
 }
 
+/*media query 1000*/
 @media (max-width: 1000px) {
+  .section-search img {
+    width: 4rem;
+    height: 4rem;
+  }
+  .banner img {
+    width: 100%;
+    height: 20rem;
+  }
   .newsletter {
     display: none;
   }
 }
+/*media query 768*/
+@media (max-width: 768px) {
+  .img-tecnico img {
+    width: 350px;
+  }
+}
+/*media query 710*/
+@media (max-width: 710px) {
+  .banner img {
+    width: 100%;
+    height: 15rem;
+  }
+}
+/* media querry 600*/
+@media (max-width: 600px) {
+  .banner img {
+    width: 100%;
+    height: 10rem;
+  }
+}
+/*tipografia html*/
 
 /*# sourceMappingURL=style.css.map */

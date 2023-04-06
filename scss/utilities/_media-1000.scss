@@ -1,0 +1,16 @@
+/*media query 1000*/
+
+@media (max-width: 1000px){
+    .section-search img{
+        width: 4rem;
+        height: 4rem;
+    }
+    .banner img{
+        width: 100%;
+        height: 20rem;
+    }
+    .newsletter{
+        display: none;
+    }
+   
+}

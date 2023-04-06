@@ -1,0 +1,24 @@
+/*Pagina 2---iphone---*/
+.iphone{
+    display: flex;
+    font-size: 2.5rem;
+    align-content: center;
+    justify-content: start;
+    margin-top: 2rem;
+    margin-left: 1rem;
+
+    p{
+        font-size: 1.8rem;
+    }
+    a{
+        color:#2A363B;
+        font-size: 1.8rem;
+        &::after{
+            content: ">";
+            margin-left: 10px;
+            margin-right: 5px;
+        }
+
+    }
+
+}
