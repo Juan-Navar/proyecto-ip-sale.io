@@ -18,6 +18,14 @@ body {
   color: #2A363B;
 }
 
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 header {
   background-color: #99B898;
 }
@@ -68,8 +76,6 @@ header {
     width: 4rem;
     height: 4rem;
   }
-}
-@media (max-width: 1000px) {
   .banner img {
     width: 100%;
     height: 20rem;
@@ -233,27 +239,25 @@ header {
 .newsletter {
   width: 100%;
   height: 10rem;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10rem;
+  display: grid;
+  grid-template-columns: 60% 40%;
 }
 .newsletter .suscribe {
-  width: 100%;
-  height: 10rem;
+  grid-column: 1/2;
+  text-align: center;
   font-size: 2.5rem;
 }
-.newsletter .suscribe p {
-  margin-left: 100px;
-}
 .newsletter .suscribe-1 {
+  grid-column: 2/3;
   display: flex;
-  width: 50%;
 }
 .newsletter .suscribe-1 input {
-  width: 60%;
-  height: 3.5rem;
+  width: 75%;
+  height: 3rem;
+  border: 2px solid #371B58;
   border-radius: 1rem;
-  padding: 4px;
+  padding: 2px;
+  font-size: 2rem;
 }
 .newsletter .suscribe-1 .sus a {
   height: 3rem;
@@ -265,37 +269,7 @@ header {
 
 @media (max-width: 1000px) {
   .newsletter {
-    width: 100%;
-    height: 5rem;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    gap: 2rem;
-    margin-bottom: 15rem;
-  }
-}
-@media (max-width: 1000px) {
-  .suscribe {
-    text-align: center;
-    grid-row: 1/2;
-    width: 80%;
-    justify-content: center;
-  }
-}
-@media (max-width: 1000px) {
-  .suscribe p {
-    font-size: 2rem;
-  }
-}
-@media (max-width: 500px) {
-  .suscribe p {
-    font-size: 1.5rem;
-  }
-}
-@media (max-width: 1000px) {
-  .suscribe-1 {
-    grid-row: 2/3;
-    width: 100%;
-    justify-content: center;
+    display: none;
   }
 }
 

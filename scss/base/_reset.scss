@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*index.html*/
+
+html{
+    font-size: 62.5%;  
+}
+
+body{
+    font-family: $fontfamily;
+    font-size: 16px;
+    color: $color-principal;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
