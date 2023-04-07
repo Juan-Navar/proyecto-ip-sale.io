@@ -13,12 +13,17 @@
         border-radius: 10px;
         padding: 3px;
     }
-    .a-buscar a{
-        margin-left: 10px;
-        padding: 5px;
-        img{
+    .a-buscar{
+        a{
+            margin-left: 10px;
+            padding: 5px;
+            img{
             width: 4.5rem;
             height: 4.5rem;
+            &:hover{
+                scale: (1.1);
+            }
+            }
         }
     }
 }
@@ -35,7 +40,7 @@
         height: 25rem;
         &:hover{
             border: 5px solid black;
-            box-shadow: 10px -10px #FD841F;
+            box-shadow: 10px -10px #f49c55;
             transition: 0.3s;
         }
 

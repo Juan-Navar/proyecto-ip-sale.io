@@ -1,5 +1,6 @@
 /*body*/
 /*header*/
+/*footer*/
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&display=swap");
 * {
   margin: 0;
@@ -54,6 +55,9 @@ header {
   width: 4.5rem;
   height: 4.5rem;
 }
+.section-search .a-buscar a img:hover {
+  scale: 1.1;
+}
 
 /*banner index*/
 .banner {
@@ -70,7 +74,7 @@ header {
 }
 .banner img:hover {
   border: 5px solid black;
-  box-shadow: 10px -10px #FD841F;
+  box-shadow: 10px -10px #f49c55;
   transition: 0.3s;
 }
 
@@ -241,6 +245,31 @@ header {
   border-radius: 1rem;
   font-size: 2rem;
   padding: 2px;
+}
+
+/*barra de navegacion*/
+.navbar-nav a:hover {
+  border-bottom: 1.5px solid black;
+  scale: 1.1;
+}
+
+/*cards de productos*/
+.card img {
+  transition-property: transform;
+  transition: 0.3s;
+}
+
+.card img:hover {
+  scale: 1.1;
+}
+
+h1:hover, h2:hover {
+  scale: 1.2;
+}
+
+/*footer*/
+footer img:hover {
+  scale: 1.1;
 }
 
 /*media query 1000*/

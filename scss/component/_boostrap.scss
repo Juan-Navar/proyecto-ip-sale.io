@@ -1,0 +1,46 @@
+/*barra de navegacion*/
+.navbar-nav{
+    a{
+        &:hover{
+            border-bottom: 1.5px solid black;
+            scale:(1.1);
+        }
+    }
+    
+}
+
+/*cards de productos*/
+
+.card{
+    img{
+        transition-property: transform;
+        transition: 0.3s;
+    
+    }
+}
+
+.card{
+    img{
+        &:hover{
+        scale: (1.1);
+        }
+    }
+}
+
+h1, h2{
+    &:hover{
+        scale: (1.2);
+    }
+}
+
+
+/*footer*/
+
+footer{
+    img{
+        &:hover{
+        scale: 1.1;
+        }
+    }
+}
+
