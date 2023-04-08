@@ -81,96 +81,6 @@ header {
   margin-right: 5px;
 }
 
-/*Pagina-4 Soporte Tecnico */
-.servicio {
-  width: 100%;
-  height: 20rem;
-  margin-bottom: 40rem;
-}
-.servicio .img-tecnico {
-  text-align: center;
-}
-.servicio h3 {
-  text-align: center;
-  margin-top: 40px;
-  font-size: 24px;
-}
-.servicio .turno {
-  grid-column: 1/2;
-  grid-row: 4/5;
-  text-align: center;
-  margin-top: 40px;
-}
-.servicio .turno a {
-  background-color: #141e61;
-  color: white;
-  border-radius: 10px;
-  box-shadow: 5px 5px 7px green;
-  padding: 6px;
-}
-.servicio .turno a:hover {
-  background-color: green;
-  box-shadow: 5px 5px 7px #141e61;
-}
-
-.apple h2 {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 32px;
-}
-
-.imac h3 {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 2.4rem;
-}
-
-.slide-frame {
-  width: 400px;
-  height: 300px;
-  margin: 50px auto 0;
-  overflow: hidden;
-}
-.slide-frame img {
-  width: 100%;
-}
-.slide-frame ul {
-  display: flex;
-  padding: 0;
-  width: 400%;
-  animation: slide 15s infinite alternate ease-in-out;
-}
-.slide-frame li {
-  list-style: none;
-  width: 100%;
-}
-
-@keyframes slide {
-  0% {
-    margin-left: 0;
-  }
-  20% {
-    margin-left: 0;
-  }
-  25% {
-    margin-left: -100%;
-  }
-  45% {
-    margin-left: -100%;
-  }
-  50% {
-    margin-left: -200%;
-  }
-  70% {
-    margin-left: -200%;
-  }
-  75% {
-    margin-left: -300%;
-  }
-  100% {
-    margin-left: -300%;
-  }
-}
 /*Pagina-5 Login*/
 .banner-01 {
   width: 100%;
@@ -287,6 +197,52 @@ header {
   box-shadow: 5px 5px 7px green;
 }
 
+.slide-frame {
+  width: 400px;
+  height: 300px;
+  margin: 50px auto 0;
+  overflow: hidden;
+}
+.slide-frame img {
+  width: 100%;
+}
+.slide-frame ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: slide 15s infinite alternate ease-in-out;
+}
+.slide-frame li {
+  list-style: none;
+  width: 100%;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
 /*barra de navegacion*/
 .navbar-nav a:hover {
   border-bottom: 1.5px solid black;
@@ -357,6 +313,10 @@ footer img:hover {
   }
   .olvidaste a {
     font-size: 2rem;
+  }
+  .slide-frame {
+    width: 300px;
+    height: 300px;
   }
 }
 /*tipografia html*/
