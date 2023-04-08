@@ -1,0 +1,13 @@
+@mixin banner ($w, $h, $justify, $mt, $mb){
+    width: $w;
+    height: $h;
+    justify-content: $justify;
+    margin-top: $mt;
+    margin-bottom: $mb;
+}
+
+@mixin boton ($background, $box, $color){
+    background-color:$background;
+    box-shadow: $box;
+    color: $color;
+}

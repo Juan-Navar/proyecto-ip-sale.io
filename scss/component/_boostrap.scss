@@ -44,3 +44,10 @@ footer{
     }
 }
 
+.pto{
+    background-color: bisque;
+}
+
+.comprar{
+    @include boton (#141E61, 5px 5px 7px green, none);
+}

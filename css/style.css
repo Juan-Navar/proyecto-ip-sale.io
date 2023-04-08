@@ -59,25 +59,6 @@ header {
   scale: 1.1;
 }
 
-/*banner index*/
-.banner {
-  width: 100%;
-  margin-bottom: 10rem;
-}
-.banner a {
-  align-self: center;
-  justify-self: center;
-}
-.banner img {
-  width: 100%;
-  height: 25rem;
-}
-.banner img:hover {
-  border: 5px solid black;
-  box-shadow: 10px -10px #f49c55;
-  transition: 0.3s;
-}
-
 /*Pagina 2---iphone---*/
 .iphone {
   display: flex;
@@ -194,14 +175,14 @@ header {
 .banner-01 {
   width: 100%;
   height: 10rem;
-  display: flex;
   justify-content: center;
   margin-top: 8rem;
   margin-bottom: 4rem;
+  display: flex;
 }
 .banner-01 img {
   width: 100%;
-  height: 12rem;
+  height: 10rem;
 }
 .banner-01 img:hover {
   width: 90% rem;
@@ -239,11 +220,11 @@ header {
   margin-top: 2rem;
 }
 .login .btn button {
+  background-color: #141E61;
+  box-shadow: 5px 5px 7px green;
+  color: white;
   width: 100%;
   font-size: 2rem;
-  background-color: #141E61;
-  color: white;
-  box-shadow: 5px 5px 7px green;
 }
 .login .btn button:hover {
   background-color: green;
@@ -293,13 +274,13 @@ header {
   font-size: 2rem;
 }
 .newsletter .suscribe-1 .sus a {
+  background-color: green;
+  box-shadow: 5px 5px 7px #141E61;
+  color: white;
   height: 3rem;
   border-radius: 1rem;
   font-size: 2rem;
   padding: 2px;
-  background-color: green;
-  color: white;
-  box-shadow: 5px 5px 7px #141e61;
 }
 .newsletter .suscribe-1 .sus a:hover {
   background-color: #141E61;
@@ -329,6 +310,16 @@ h1:hover, h2:hover {
 /*footer*/
 footer img:hover {
   scale: 1.1;
+}
+
+.pto {
+  background-color: bisque;
+}
+
+.comprar {
+  background-color: #141E61;
+  box-shadow: 5px 5px 7px green;
+  color: none;
 }
 
 /*media query 1000*/
