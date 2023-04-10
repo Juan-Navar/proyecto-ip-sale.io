@@ -320,5 +320,66 @@ footer img:hover {
   }
 }
 /*tipografia html*/
+.mierror {
+  width: 100%;
+  height: 100%;
+}
+
+.pagina404 {
+  width: 100%;
+  height: 50%;
+  background-color: black;
+  flex-wrap: wrap;
+}
+.pagina404 div h1 {
+  color: red;
+  text-align: center;
+  padding: 2rem;
+  font-size: 3.6rem;
+}
+.pagina404 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pagina404 div img {
+  width: 450px;
+  height: 350px;
+}
+.pagina404 div img:hover {
+  scale: 1.1;
+}
+.pagina404 div h2 {
+  color: red;
+  padding: 2rem;
+  font-size: 2.8rem;
+}
+
+.error-2 {
+  width: 100%;
+  height: 50%;
+  background-color: lightcoral;
+  flex-wrap: wrap;
+}
+.error-2 p {
+  font-size: 3.2rem;
+  margin-left: 2rem;
+  text-decoration: underline;
+}
+.error-2 ul {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+.error-2 ul li {
+  text-align: center;
+}
+.error-2 ul li a {
+  font-size: 2.4rem;
+}
+.error-2 ul li:hover {
+  scale: 1.1;
+}
 
 /*# sourceMappingURL=style.css.map */
