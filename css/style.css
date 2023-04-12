@@ -55,8 +55,16 @@ header {
   width: 4.5rem;
   height: 4.5rem;
 }
-.section-search .a-buscar a img:hover {
-  scale: 1.1;
+
+.banner-index {
+  display: flex;
+  width: 100%;
+  height: 30rem;
+  justify-content: center;
+}
+.banner-index img {
+  width: 100%;
+  height: 30rem;
 }
 
 /*Pagina 2---iphone---*/
@@ -94,11 +102,6 @@ header {
   width: 100%;
   height: 10rem;
 }
-.banner-01 img:hover {
-  width: 90% rem;
-  height: 13rem;
-  border-radius: 10rem;
-}
 
 .login {
   margin-top: 4rem;
@@ -125,7 +128,7 @@ header {
   margin: auto;
 }
 .login .btn {
-  width: 50%;
+  width: 100%;
   height: 4rem;
   margin-top: 2rem;
 }
@@ -198,10 +201,11 @@ header {
 }
 
 .slide-frame {
-  width: 400px;
-  height: 300px;
+  width: 320px;
+  height: 320px;
   margin: 50px auto 0;
   overflow: hidden;
+  box-shadow: 5px 5px 7px #464545;
 }
 .slide-frame img {
   width: 100%;
@@ -210,7 +214,7 @@ header {
   display: flex;
   padding: 0;
   width: 400%;
-  animation: slide 15s infinite alternate ease-in-out;
+  animation: slide 10s infinite alternate ease-in-out;
 }
 .slide-frame li {
   list-style: none;
@@ -312,11 +316,18 @@ footer img:hover {
     height: 10rem;
   }
   .olvidaste a {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   .slide-frame {
     width: 300px;
     height: 300px;
+  }
+  .login {
+    width: 80%;
+    margin-left: 5rem;
+  }
+  label {
+    font-size: 1.6rem;
   }
 }
 /*tipografia html*/
@@ -347,9 +358,6 @@ footer img:hover {
   width: 450px;
   height: 350px;
 }
-.pagina404 div img:hover {
-  scale: 1.1;
-}
 .pagina404 div h2 {
   color: red;
   padding: 2rem;
@@ -377,9 +385,6 @@ footer img:hover {
 }
 .error-2 ul li a {
   font-size: 2.4rem;
-}
-.error-2 ul li:hover {
-  scale: 1.1;
 }
 
 /*# sourceMappingURL=style.css.map */

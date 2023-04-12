@@ -25,9 +25,7 @@
         img{
             width: 450px;
             height: 350px;
-            &:hover{
-                scale: (1.1);
-            }
+           
         }
     }
     div{
@@ -59,9 +57,7 @@
                 font-size: 2.4rem;
                 
             }
-            &:hover{
-                scale: (1.1);
-            }
+            
         }
     }
 }
