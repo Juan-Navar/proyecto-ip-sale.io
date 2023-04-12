@@ -10,7 +10,16 @@
         height: 20rem;
     }
     .newsletter{
-        display: none;
+        display: block;
+        margin-bottom: 4rem;
+        font-size: 1.6rem;
+        p{
+            font-size: 2.4rem;
+        }
+        .suscribe-1{
+            input{
+                width: 80%;
+            }
+        }
     }
-   
 }

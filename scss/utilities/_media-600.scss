@@ -6,7 +6,7 @@
     }
     .olvidaste{
         a{
-            font-size: 1.6rem;
+            font-size: 2rem;
         }
     }
     .slide-frame{
@@ -19,5 +19,15 @@
     }
     label{
         font-size: 1.6rem;
+    }
+    .newsletter{
+        p{
+            font-size: 2rem;
+        }
+        .suscribe-1{
+            input{
+                width: 100%;
+            }
+        }
     }
 }
