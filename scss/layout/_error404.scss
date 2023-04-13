@@ -2,64 +2,49 @@
 
 .mierror{
     width: 100%;
-    height:100%;
-}
-.pagina404{
-    width: 100%;
-    height: 50%;
-    background-color: black;
-    flex-wrap: wrap;
-    div{
-        h1{
-            color: red;
-            text-align: center;
-            padding: 2rem;
-            font-size: 3.6rem;
-        }
-    }
-    div{
-        display: flex;
-        flex-direction: column;
+    height: 100vh;
+    color: red;
+    
+    .pagina404{
+        width: 100%;
+        height: 10rem;
+        display: block;
         justify-content: center;
         align-items: center;
-        img{
-            width: 450px;
-            height: 350px;
-           
-        }
-    }
-    div{
-        h2{
-            color: red;
-            padding: 2rem;
-            font-size: 2.8rem;
-        }
-    }
-}
-
-.error-2{
-    width: 100%;
-    height: 50%;
-    background-color: lightcoral;
-    flex-wrap: wrap;
-    p{
-        font-size: 3.2rem;
-        margin-left: 2rem;
-        text-decoration: underline;
-    }
-    ul{
-        display: flex;
-        flex-direction: column;
-        margin-left: 2rem;
-        li{
+        h1{
+            font-size: 5rem;
             text-align: center;
-            a{
-                font-size: 2.4rem;
-                
-            }
+        }
+        img{
+            width: 100%;
+            height: 400px;
             
         }
+        h2{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            font-size: 2.4rem;
+        }
+        ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 2rem;
+            li{
+                a{
+                    color:rgb(12, 105, 12);
+                }
+            }
+        }
     }
+   
 }
+
+
+
 
 

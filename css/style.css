@@ -34,7 +34,7 @@ header {
 
 /*barra de busqueda*/
 .section-search {
-  width: 100%;
+  width: 90%;
   margin-top: 2rem;
   display: flex;
   justify-content: center;
@@ -234,12 +234,6 @@ header {
     margin-left: -300%;
   }
 }
-/*barra de navegacion*/
-.navbar-nav a:hover {
-  border-bottom: 1.5px solid black;
-  scale: 1.1;
-}
-
 /*cards de productos*/
 .card img {
   transition-property: transform;
@@ -250,15 +244,7 @@ header {
   scale: 1.1;
 }
 
-h1:hover, h2:hover {
-  scale: 1.2;
-}
-
 /*footer*/
-footer img:hover {
-  scale: 1.1;
-}
-
 .pto {
   background-color: bisque;
 }
@@ -291,11 +277,19 @@ footer img:hover {
     width: 80%;
   }
 }
+@media (max-width: 1100px) {
+  .mierror .error-2 ul li {
+    text-align: center;
+  }
+}
 /*media query 710*/
 @media (max-width: 710px) {
   .banner img {
     width: 100%;
     height: 15rem;
+  }
+  .mierror .error-2 ul {
+    margin-top: 30rem;
   }
 }
 /* media querry 600*/
@@ -325,61 +319,53 @@ footer img:hover {
     width: 100%;
   }
 }
+@media (max-width: 380px) {
+  .mierror .error-2 p {
+    font-size: 2.2rem;
+    margin-top: 2rem;
+  }
+  .mierror .error-2 ul {
+    margin-top: 15rem;
+  }
+}
 /*tipografia html*/
 .mierror {
   width: 100%;
-  height: 100%;
-}
-
-.pagina404 {
-  width: 100%;
-  height: 50%;
-  background-color: black;
-  flex-wrap: wrap;
-}
-.pagina404 div h1 {
+  height: 100vh;
   color: red;
-  text-align: center;
-  padding: 2rem;
-  font-size: 3.6rem;
 }
-.pagina404 div {
+.mierror .pagina404 {
+  width: 100%;
+  height: 10rem;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.mierror .pagina404 h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+.mierror .pagina404 img {
+  width: 100%;
+  height: 400px;
+}
+.mierror .pagina404 h2 {
+  text-align: center;
+}
+.mierror .pagina404 p {
+  text-align: center;
+  font-size: 2.4rem;
+}
+.mierror .pagina404 ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
 }
-.pagina404 div img {
-  width: 450px;
-  height: 350px;
-}
-.pagina404 div h2 {
-  color: red;
-  padding: 2rem;
-  font-size: 2.8rem;
-}
-
-.error-2 {
-  width: 100%;
-  height: 50%;
-  background-color: lightcoral;
-  flex-wrap: wrap;
-}
-.error-2 p {
-  font-size: 3.2rem;
-  margin-left: 2rem;
-  text-decoration: underline;
-}
-.error-2 ul {
-  display: flex;
-  flex-direction: column;
-  margin-left: 2rem;
-}
-.error-2 ul li {
-  text-align: center;
-}
-.error-2 ul li a {
-  font-size: 2.4rem;
+.mierror .pagina404 ul li a {
+  color: rgb(12, 105, 12);
 }
 
 /*# sourceMappingURL=style.css.map */
